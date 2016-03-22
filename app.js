@@ -5,10 +5,10 @@ export class App {
   }
   
   activate(){
-      this.message = "Hello from Aurelia movie!";
+      this.message = "Hello from Aurelia!";
   }
   
   changeMessage(){
-      this.message = "Goodbye!!!!!";
+      this.message = "Goodbye";
   }
 }
