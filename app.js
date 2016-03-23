@@ -8,8 +8,6 @@ export class App {
     this.movieData = movieData;
   }
   
-  //static inject(){ return [HttpClient];}
-  
   activate(){ 
       return this.movieData
                  .getAll()
