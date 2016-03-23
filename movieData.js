@@ -11,7 +11,9 @@ export class MovieData {
 
     getAll() {
         return this.http.get(baseUrl)
-            .then(response => this.movies = response.content );
-            // .then(response => { return this.movies = response.content } );
+            .then(x => x.content );
+            //.then(response => {return response.content;} );
+            //.then(response => this.movies = response.content );
+            // .then(response => { return this.movies = response.content; } );
     }
 }

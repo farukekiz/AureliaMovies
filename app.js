@@ -8,15 +8,12 @@ export class App {
     this.movieData = movieData;
   }
   
-//   static inject(){ return [HttpClient];}
+  //static inject(){ return [HttpClient];}
   
   activate(){ 
       return this.movieData
                  .getAll()
-                 .then(movies => {
-                     console.log(movies);
-                     this.movies = movies;
-                 }); 
+                 .then(movies => this.movies = movies);                   
   } 
   
 }
