@@ -1,7 +1,7 @@
 import {inject} from "aurelia-framework";
 import {HttpClient} from "aurelia-http-client";
 
-let baseUrl = "movies.json";
+let baseUrl = "../movies.json";
 
 @inject(HttpClient)
 export class MovieData {

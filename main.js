@@ -1,7 +1,7 @@
 export function configure(aurelia){
     aurelia.use
-           .standardConfiguration() // enable debug logging to see aurelia-computed's messages.
-           .developmentLogging(); // install the plugin
+           .standardConfiguration() 
+           .developmentLogging(); // enable debug logging to see aurelia-computed's messages.
     aurelia.start().then(a => a.setRoot());
     
 }
